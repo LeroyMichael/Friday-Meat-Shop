@@ -11,3 +11,8 @@ analytics.js:37 POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v
 <br>
 My guess is maybe this happened because Tokopedia prevented the data collection.<br>
 
+# Buid With
+* Visual Studio
+* Json
+* JavaScript
+* HTML
