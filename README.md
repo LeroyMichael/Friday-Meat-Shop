@@ -13,6 +13,5 @@ My guess is maybe this happened because Tokopedia prevented the data collection.
 
 # Buid With
 * Visual Studio
-* Json
 * JavaScript
 * HTML
