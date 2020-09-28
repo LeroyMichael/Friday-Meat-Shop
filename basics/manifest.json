@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Friday Meat Shop",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "background": {
+       "scripts": ["background.js"]
+    },
+    "content_security_policy": "script-src 'self' https://seller.tokopedia.com/myshop_order?status=all_order; object-src 'self'",
+    "browser_action":{
+        "default_icon": "logo.png",
+        "default_popup": "popup/popup.html",
+        "default_title": "Details"
+    }
+   
+}
